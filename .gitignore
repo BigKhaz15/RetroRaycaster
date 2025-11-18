@@ -1,0 +1,12 @@
+# build artifacts
+build/
+bin/
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+
+# OS junk
+.DS_Store
+Thumbs.db
