@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build RetroRaycaster",
+      "type": "shell",
+      "command": "cl",
+      "args": [
+        "/EHsc",
+        "/Fe:build\\RetroRaycaster.exe",
+        "src\\main.cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$msCompile"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+}
